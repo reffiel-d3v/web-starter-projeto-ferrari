@@ -35,7 +35,38 @@
   font-weight: 400;
 }
 :root {
-  --bg-color: #FFF;
+  --white: #FFF;
+  --black: #000;
+  --black-hover: #111;
+  --black-active: #222;
+  --black-10: #0000001a;
+  --black-50: rgba(0, 0, 0, .5);
+  --black-75: #000000bf;
+  --dark-0: #333;
+  --dark-1: #000000BF;
+  --gray: #79756C;
+  --gray-0: #707070;
+  --gray-1: #7E7E7E;
+  --gray-2: #9A9A99;
+  --gray-3: #CCC;
+  --gray-4: #00000029;
+  --gray-5: #E5E3DFBF;
+  --gray-6: #F8F8F8;
+  --gray-7: #E5E3DF;
+  --gray-8: #DDD;
+  --gray-9: #999;
+  --gray-10: #EEE;
+  --gray-11: #444;
+  --gray-12: #E8E8E8;
+  --red: #E32119;
+  --red-hover: #E44238;
+  --red-active: #C91D16;
+  --green: #00994D;
+  --green-hover: #00BE60;
+  --green-active: #00773C;
+  --blue: #199BD4;
+  --blue-hover: #1CABE9;
+  --blue-active: #00A0E6;
 }
 
 * {
@@ -46,7 +77,7 @@
   font-weight: 400;
 }
 
-body, div, article, aside, footer, header, main, nav, section, ul, ol, li, button, figure, picture {
+body, div, article, aside, footer, header, main, nav, section, ul, ol, li, button, figure, picture, hr {
   display: flex;
 }
 
@@ -54,6 +85,15 @@ body {
   margin: 0;
   flex-direction: column;
   background-color: var(--bg-color);
+}
+
+hr.divider {
+  background-color: var(--gray-3);
+  height: 1px;
+  width: calc(100% - 2em);
+  margin: 3em 0;
+  border: none;
+  align-self: center;
 }
 
 /*# sourceMappingURL=main.css.map */
