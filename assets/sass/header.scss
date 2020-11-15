@@ -1,0 +1,19 @@
+#header {
+    min-width: 320px;
+    width: 100%;
+    height: 60px;
+    background-color: var(--gray-5);
+    position: relative;
+    z-index: 3;
+    .italy {
+      width: 100%;
+      margin: 0;
+      border: none;
+      position: absolute;
+      top: 60px;
+      background-color: var(--white);
+      border-top: var(--green) 6px solid;
+      border-bottom: var(--red) 6px solid;
+      height: 18px;
+    }
+  }
