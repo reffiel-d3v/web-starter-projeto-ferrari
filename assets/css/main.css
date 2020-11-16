@@ -217,23 +217,31 @@ hr.divider {
   min-width: 130px;
   border: none;
   height: 50px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
   outline: none;
   cursor: pointer;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--black);
   background-color: var(--green);
   color: var(--white);
-  border-radius: 6px;
 }
-#header .menu .btn-register.hover {
+#header .menu .btn-register:hover {
+  background-color: var(--black-10);
+}
+#header .menu .btn-register:active {
+  background-color: var(--black-75);
+}
+#header .menu .btn-register:hover {
   background-color: var(--green-hover);
 }
-#header .menu .btn-register.active {
+#header .menu .btn-register:active {
   background-color: var(--green-active);
 }
 #header button {
